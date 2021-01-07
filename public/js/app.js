@@ -1,4 +1,3 @@
-console.log("init");
 const weatherForm = document.querySelector("#searchForm");
 const searchInput = document.querySelector("#searchInput");
 const messageError = document.querySelector("#messageError");
