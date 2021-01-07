@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    {{>header}}
+        <p>Use this site to get your weather!</p>
+        <form id="searchForm">
+            <input id="searchInput" type="text" placeholder="Location">
+            <button type="submit">Search</button>
+        </form>
+
+        <p id="messageError"></p>
+        <p id="messageSuccess"></p>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+</html>
